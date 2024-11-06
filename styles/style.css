@@ -1,0 +1,121 @@
+/*Corpo*/
+
+html, body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* cabeçalho */
+
+header{
+    display: flex;
+    margin-top: 5px;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    margin-left: 720px;
+    width: 50%;
+    border-radius: 50px;
+    background-color: #9ACD32;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #9ACD32;
+    font-weight: 1000;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#logo{
+    width: 80px;
+    margin-left: 50px;
+}
+
+#home{
+    margin-left: 30px;
+}
+
+#home:hover{
+    font-size: 17px;
+}
+
+#sobrenos{
+    margin-left: 200px;
+}
+
+#sobrenos:hover{
+    font-size: 17px;
+}
+/* Principal */
+
+#TextoPrincipal{
+    margin-top: 200px; 
+}
+
+#TextoPrincipal h1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#TextoPrincipal p{
+    margin: 20px 0 0 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 700px;
+}
+
+/* Sobre */
+
+section.sobre{
+    height: 1000px;
+    position: relative
+}
+
+.extras{
+    position: absolute;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    top: -100px;
+    left: auto;
+    background-color: #9ACD32;
+}
+
+.extras img{
+    width: 500px;
+}
+
+.social-medias{
+    position: absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social-medias img{
+    display: block;
+    width: 40px;
+    margin: 20px 0;
+}
+
