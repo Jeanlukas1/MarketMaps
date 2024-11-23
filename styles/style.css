@@ -14,12 +14,12 @@ html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* cabeçalho */
+/* cabeçalho */ 
 
 header{
     display: flex;
     margin-top: 5px;
-}
+} 
 
 #cabecalho{
     display: flex;
@@ -30,10 +30,17 @@ header{
     background-color: #9ACD32;
 }
 
-#nav{
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
 }
 
 #nav a{
@@ -42,8 +49,7 @@ header{
     background-color: #9ACD32;
     font-weight: 1000;
     border: none;
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 14px;
 }
 
 #logo{
