@@ -36,7 +36,7 @@ header{
     justify-content: space-evenly;
 }
 
-#nav a{
+#home, #sobrenos{
     text-decoration: none;
     color: white;
     background-color: #9ACD32;
